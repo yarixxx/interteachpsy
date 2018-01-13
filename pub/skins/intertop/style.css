@@ -1,0 +1,253 @@
+textarea {
+    height:500px;
+    width:600px;
+}
+
+.vspace, ol li , ul li, p{
+	font-size:80%
+}
+
+ol li , ul li {
+	font-size:100%
+}
+
+a, a.createlinktext {
+	font-size:100%;
+	text-decoration:none !important;
+	border-bottom:1px solid #266285 !important;
+	color:black
+}
+
+
+
+h1.pagetitle {
+	font:bold 130% Arial;
+}
+
+h2 {
+	font:bold 120% Arial;
+}
+
+strong {
+    font-weight:bold;
+	font-size:100%
+}
+
+em {
+	font-size:100%;
+	font-style:italic
+}
+
+strong em {
+	font-weight:bold
+}
+
+
+
+
+body {
+    width:100%;
+    height:100%;
+    background:#ffd799;
+    margin:0px
+}
+
+.bg1 {
+    background:url(/pub/skins/intertop/left_bg.gif) left repeat-y transparent;
+    width:100%;
+    height:100%;
+    margin:0px
+}
+
+.bg2 {
+    background:url(/pub/skins/intertop/right_bg.gif) right repeat-y transparent;
+    width:100%;
+    height:100%
+}
+
+.header {
+    margin:0px auto 20px auto;
+    width:800px;
+    height:200px;
+    padding-top:20px
+}
+
+.content {
+    margin:auto;
+    width:720px;
+}
+
+.footer {
+    margin:auto;
+    width:720px;
+    padding:5px 0px;
+}
+
+.footer a {
+	text-decoration:none !important;
+	border-bottom:none !important
+}
+
+.menu {
+    margin:auto;
+    width:720px;
+}
+
+.menu .sel {
+    background:#1e1e1e;
+    color:white;
+    padding:6px;
+    font:bold 14px Sans-Serif;
+    white-space:nowrap
+}
+
+.menu .item {
+    padding:5px;
+    border:1px solid #1e1e1e;
+    font:bold 13px Sans-Serif;
+    white-space:nowrap;
+    height:20px
+}
+
+.menu .item a {
+    color:#1e1e1e;
+    text-decoration:none;
+    white-space:nowrap;
+	border-bottom:none !important
+}
+
+.menu .item a:hover {
+    text-decoration:underline;
+}
+
+.content {
+    border-bottom:1px solid #1e1e1e;
+	overflow:auto;
+	padding-bottom:25px
+}
+
+.content p, .content ul, .content ol {
+    font:normal 13px Sans-Serif;
+}
+
+.content p, .content ul, .content ol {
+    margin-top:0px;
+    margin-bottom:3px
+}
+
+.content ul, .content ol {
+    display:block;
+    padding-left:20px
+}
+
+.content p {
+    text-indent:10px
+}
+
+.apa_style {
+  padding-left:30px
+}
+
+.apa_style p {
+    text-indent:-30px
+}
+
+.content h1 {
+    font:bold 20px Arial;
+    margin:40px 0px 0px 0px;
+    border-bottom:2px solid black;
+    margin-bottom:10px
+}
+
+.content h2 {
+    font:bold 18px Arial;
+    margin:40px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
+    color:#781f01;
+}
+
+.content h3 {
+    font:bold 16px Arial;
+    margin:20px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
+    color:black;
+}
+
+.content a {
+    color:#266285;
+    text-decoration:underline;
+}
+
+.content a:hover {
+    text-decoration:none;
+}
+
+.nbox {
+	border: 1px solid rgb(120, 31, 1);
+	padding: 5px;
+	background: rgb(222, 172, 108) none repeat scroll 0% 0%;
+	display: block;
+	width: 150px;
+	float: right;
+	margin-left: 20px;
+	font-family: Sans-Serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: normal;
+	font-size-adjust: none;
+	font-stretch: normal;
+	color: rgb(120, 31, 1); 
+	clear: none;
+	margin-bottom: 20px;
+}
+
+.nbox li a {
+	font-size:90%;
+	color:#781F01;
+	text-decoration:none !important;
+	border-bottom:1px solid #781F01 !important
+}
+
+.nbox ul { list-style:none; padding-left:5px}
+
+.nbox li {
+	font-size:90%;
+	margin-bottom:10px
+}
+
+
+.contextmenu {
+	background:#C38146 none repeat scroll 0 0;
+	border:1px solid #2A140B;
+	float:right;
+	padding:5px;
+	width:250px
+}
+
+.contextmenu p {
+	text-indent:0;
+	margin-bottom:9px
+}
+
+.contextmenu a {
+	color:#2A140B;
+	font-size:80%;
+	text-decoration:none !important;
+	border-bottom:1px solid #2A140B !important
+}
+
+#Publications .outdent {
+	margin-bottom: 10px;
+	margin-left: 30px;
+	text-indent: -30px
+}
+
+#Resources p {
+	line-height: 2em 
+}
+
+#Resources h2 {
+	margin-top: 10px
+}
